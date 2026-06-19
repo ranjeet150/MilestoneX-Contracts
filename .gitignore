@@ -3,13 +3,10 @@
 /Cargo.lock
 
 # Environment
-.env
-.env.local
 .env.testnet
 .env.mainnet
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -42,3 +39,5 @@ deployments/*.json
 tarpaulin-report.html
 cobertura.xml
 tarpaulin-ci/
+config.bat
+node_modules
